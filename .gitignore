@@ -1,0 +1,40 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore the SQLite database
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+# Ignore Yarn and node_modules
+/node_modules
+/yarn-error.log
+
+# Ignore Byebug command history file.
+/.byebug_history
+
+# Ignore .env files for environment variables (if used)
+/.env
+.env.*
+
+# Ignore Mac OS system files
+.DS_Store
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore any coverage results from testing tools (e.g. SimpleCov)
+/coverage/
+
+# Ignore assets compiled by Rails during production
+/public/assets/
